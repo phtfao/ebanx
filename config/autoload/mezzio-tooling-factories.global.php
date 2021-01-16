@@ -14,6 +14,7 @@ return [
     'dependencies' => [
         'factories' => [
             App\Handler\BalanceHandler::class => App\Handler\BalanceHandlerFactory::class,
+            App\Handler\EventHandler::class => App\Handler\EventHandlerFactory::class,
         ],
     ],
 ];
