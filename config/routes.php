@@ -38,4 +38,5 @@ return static function (Application $app, MiddlewareFactory $factory, ContainerI
 
     $app->get('/balance', App\Handler\BalanceHandler::class, 'balance');
     $app->post('/event', App\Handler\EventHandler::class, 'event');
+    $app->post('/reset', App\Handler\ResetHandler::class, 'reset');
 };
