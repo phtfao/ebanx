@@ -37,4 +37,5 @@ return static function (Application $app, MiddlewareFactory $factory, ContainerI
     $app->get('/api/ping', App\Handler\PingHandler::class, 'api.ping');
 
     $app->get('/balance', App\Handler\BalanceHandler::class, 'balance');
+    $app->post('/event', App\Handler\EventHandler::class, 'event');
 };
