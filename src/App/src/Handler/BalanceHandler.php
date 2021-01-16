@@ -19,7 +19,7 @@ class BalanceHandler implements RequestHandlerInterface
         $accountId = (int)htmlspecialchars($accountId, ENT_HTML5, 'UTF-8');        
 
         if (is_nan($accountId)) {
-            return new HtmlResponse(0, 404);
+            return new HtmlResponse('0', 404);
             
         }
 
