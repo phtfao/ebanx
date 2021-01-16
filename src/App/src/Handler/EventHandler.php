@@ -9,7 +9,6 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use Laminas\Diactoros\Response\JsonResponse;
 use Laminas\Diactoros\Response\HtmlResponse;
-use PhpParser\Node\Stmt\TryCatch;
 
 class EventHandler implements RequestHandlerInterface
 {
